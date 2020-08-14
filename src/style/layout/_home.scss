@@ -1,0 +1,82 @@
+.ui.segment.pusher.slider {
+    width: 100%;
+    height: 100px;
+}
+
+.ui.container.grid {
+    display: contents
+}
+
+.ui.basic.segment.slider-nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    justify-items: center;
+
+
+    i {
+        font-size: 24px;
+
+        &:hover {
+            color: $primary;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+.ui.card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+
+    .image {
+        width: 300px;
+        height: 300px;
+        display: flex;
+
+
+    }
+
+    .extra.content {
+        width: 100%;
+
+        .column {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            justify-items: center;
+            color: $google-blue;
+
+        }
+
+
+        img {
+            width: 40px;
+            height: 40px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+
+    }
+}
+
+.img_container {
+
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

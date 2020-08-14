@@ -1,0 +1,15 @@
+.ui.modal.transition.visible.active {
+    .image.content {
+
+        img {
+
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .description {
+            width: 60%;
+            margin-left: 10px;
+        }
+    }
+}
